@@ -1,0 +1,7 @@
+vendor
+app/writable/debugbar/*
+app/writable/session/*
+app/build/*
+.idea
+docker/mysql/dbdata/*
+docker/nginx/log/*

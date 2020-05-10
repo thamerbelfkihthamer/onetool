@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/var/www/html/onetool/tests/Features" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.086791">
+    <testsuite name="Features\TestRegisterUserFeature" file="/var/www/html/onetool/tests/Features/TestRegisterUserFeature.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.086791">
+      <testcase name="username_and_email_required" class="Features\TestRegisterUserFeature" classname="Features.TestRegisterUserFeature" file="/var/www/html/onetool/tests/Features/TestRegisterUserFeature.php" line="20" assertions="0" time="0.086791">
+        <error type="CodeIgniter\Exceptions\PageNotFoundException">Features\TestRegisterUserFeature::username_and_email_required
+CodeIgniter\Exceptions\PageNotFoundException: Controller or its method is not found: \App\Controllers\Onetool::public
+
+/var/www/html/onetool/vendor/codeigniter4/framework/system/Exceptions/PageNotFoundException.php:14
+/var/www/html/onetool/vendor/codeigniter4/framework/system/CodeIgniter.php:981
+/var/www/html/onetool/vendor/codeigniter4/framework/system/CodeIgniter.php:324
+/var/www/html/onetool/vendor/codeigniter4/framework/system/Test/FeatureTestCase.php:182
+/var/www/html/onetool/tests/Features/TestRegisterUserFeature.php:23
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

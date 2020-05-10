@@ -1,0 +1,632 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/var/www/html/onetool/app/Config/ForeignCharacters.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Images.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Logger.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Validation/CheckFalsifiedEmail.php' => 
+  array (
+    12 => 
+    array (
+    ),
+    13 => NULL,
+  ),
+  '/var/www/html/onetool/app/Database/Seeds/UserSeeder.php' => 
+  array (
+    12 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Database/Seeds/TestSeeder.php' => 
+  array (
+    12 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Config/Filters.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Language/en.php' => 
+  array (
+    7 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Controllers/Registeruser.php' => 
+  array (
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    48 => NULL,
+  ),
+  '/var/www/html/onetool/app/Config/Honeypot.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/ContentSecurityPolicy.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Events.php' => 
+  array (
+    23 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Config/Migrations.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Mimes.php' => 
+  array (
+    486 => 
+    array (
+    ),
+    488 => 
+    array (
+    ),
+    490 => 
+    array (
+    ),
+    493 => 
+    array (
+    ),
+    494 => NULL,
+    508 => 
+    array (
+    ),
+    510 => 
+    array (
+    ),
+    512 => 
+    array (
+    ),
+    514 => 
+    array (
+    ),
+    517 => 
+    array (
+    ),
+    519 => 
+    array (
+    ),
+    521 => 
+    array (
+    ),
+    525 => 
+    array (
+    ),
+    526 => NULL,
+  ),
+  '/var/www/html/onetool/app/Config/Kint.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Boot/production.php' => 
+  array (
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Database/Migrations/2020-05-09-000737_create_users_table.php' => 
+  array (
+    9 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Config/UserAgents.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Exceptions.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Database.php' => 
+  array (
+    86 => 
+    array (
+    ),
+    91 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    97 => 
+    array (
+    ),
+    99 => 
+    array (
+    ),
+    101 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Models/User.php' => 
+  array (
+    16 => 
+    array (
+    ),
+    17 => NULL,
+  ),
+  '/var/www/html/onetool/app/Validation/RecaptchaRules.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => NULL,
+  ),
+  '/var/www/html/onetool/app/Config/App.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Pager.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/DocTypes.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Format.php' => 
+  array (
+    54 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => NULL,
+  ),
+  '/var/www/html/onetool/app/Config/Cache.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Email.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Controllers/BaseController.php' => 
+  array (
+    37 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Config/View.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Boot/testing.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Config/Encryption.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Notification/RegisterEmailNotification.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Controllers/UserController.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/ThirdParty/GoogleRecaptchaService.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    13 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    33 => NULL,
+  ),
+  '/var/www/html/onetool/app/Config/Modules.php' => 
+  array (
+    58 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => NULL,
+  ),
+  '/var/www/html/onetool/app/Config/Autoload.php' => 
+  array (
+    29 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    80 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    84 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Config/Toolbar.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Boot/development.php' => 
+  array (
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Controllers/Home.php' => 
+  array (
+    7 => 
+    array (
+    ),
+    8 => NULL,
+  ),
+  '/var/www/html/onetool/app/Config/Validation.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/ThirdParty/DebounceService.php' => 
+  array (
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    40 => NULL,
+  ),
+  '/var/www/html/onetool/app/Common.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Constants.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+  ),
+  '/var/www/html/onetool/app/Config/Paths.php' => 
+  array (
+  ),
+  '/var/www/html/onetool/app/Config/Services.php' => 
+  array (
+    5 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/onetool/app/Common.php' => true,
+  '/var/www/html/onetool/app/Config/App.php' => true,
+  '/var/www/html/onetool/app/Config/Autoload.php' => true,
+  '/var/www/html/onetool/app/Config/Boot/development.php' => true,
+  '/var/www/html/onetool/app/Config/Boot/production.php' => true,
+  '/var/www/html/onetool/app/Config/Boot/testing.php' => true,
+  '/var/www/html/onetool/app/Config/Cache.php' => true,
+  '/var/www/html/onetool/app/Config/Constants.php' => true,
+  '/var/www/html/onetool/app/Config/ContentSecurityPolicy.php' => true,
+  '/var/www/html/onetool/app/Config/Database.php' => true,
+  '/var/www/html/onetool/app/Config/DocTypes.php' => true,
+  '/var/www/html/onetool/app/Config/Email.php' => true,
+  '/var/www/html/onetool/app/Config/Encryption.php' => true,
+  '/var/www/html/onetool/app/Config/Events.php' => true,
+  '/var/www/html/onetool/app/Config/Exceptions.php' => true,
+  '/var/www/html/onetool/app/Config/Filters.php' => true,
+  '/var/www/html/onetool/app/Config/ForeignCharacters.php' => true,
+  '/var/www/html/onetool/app/Config/Format.php' => true,
+  '/var/www/html/onetool/app/Config/Honeypot.php' => true,
+  '/var/www/html/onetool/app/Config/Images.php' => true,
+  '/var/www/html/onetool/app/Config/Kint.php' => true,
+  '/var/www/html/onetool/app/Config/Logger.php' => true,
+  '/var/www/html/onetool/app/Config/Migrations.php' => true,
+  '/var/www/html/onetool/app/Config/Mimes.php' => true,
+  '/var/www/html/onetool/app/Config/Modules.php' => true,
+  '/var/www/html/onetool/app/Config/Pager.php' => true,
+  '/var/www/html/onetool/app/Config/Paths.php' => true,
+  '/var/www/html/onetool/app/Config/Services.php' => true,
+  '/var/www/html/onetool/app/Config/Toolbar.php' => true,
+  '/var/www/html/onetool/app/Config/UserAgents.php' => true,
+  '/var/www/html/onetool/app/Config/Validation.php' => true,
+  '/var/www/html/onetool/app/Config/View.php' => true,
+  '/var/www/html/onetool/app/Controllers/BaseController.php' => true,
+  '/var/www/html/onetool/app/Controllers/Home.php' => true,
+  '/var/www/html/onetool/app/Controllers/Registeruser.php' => true,
+  '/var/www/html/onetool/app/Controllers/UserController.php' => true,
+  '/var/www/html/onetool/app/Database/Migrations/2020-05-09-000737_create_users_table.php' => true,
+  '/var/www/html/onetool/app/Database/Seeds/TestSeeder.php' => true,
+  '/var/www/html/onetool/app/Database/Seeds/UserSeeder.php' => true,
+  '/var/www/html/onetool/app/Language/en.php' => true,
+  '/var/www/html/onetool/app/Models/User.php' => true,
+  '/var/www/html/onetool/app/Notification/RegisterEmailNotification.php' => true,
+  '/var/www/html/onetool/app/ThirdParty/DebounceService.php' => true,
+  '/var/www/html/onetool/app/ThirdParty/GoogleRecaptchaService.php' => true,
+  '/var/www/html/onetool/app/Validation/CheckFalsifiedEmail.php' => true,
+  '/var/www/html/onetool/app/Validation/RecaptchaRules.php' => true,
+));
+
+return $coverage;

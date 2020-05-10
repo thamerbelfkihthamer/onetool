@@ -1,0 +1,3 @@
+Register User Feature (Features\RegisterUserFeature)
+ [ ] Username and email required
+

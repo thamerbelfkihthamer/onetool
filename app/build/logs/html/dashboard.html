@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/onetool/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="_css/style.css" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/var/www/html/onetool/app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Config/Autoload.php.html#12">Config\Autoload</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/Seeds/TestSeeder.php.html#7">App\Database\Seeds\TestSeeder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/CheckFalsifiedEmail.php.html#8">App\Validation\CheckFalsifiedEmail</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdParty/GoogleRecaptchaService.php.html#6">App\ThirdParty\GoogleRecaptchaService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdParty/DebounceService.php.html#9">App\ThirdParty\DebounceService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/RegisterEmailNotification.php.html#7">App\Notification\RegisterEmailNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#7">App\Models\User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/Seeds/UserSeeder.php.html#7">App\Database\Seeds\UserSeeder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/Migrations/2020-05-09-000737_create_users_table.php.html#5">App\Database\Migrations\CreateUsersTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Database.php.html#9">Config\Database</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#7">App\Controllers\UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Registeruser.php.html#11">App\Controllers\Registeruser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Home.php.html#3">App\Controllers\Home</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/BaseController.php.html#19">App\Controllers\BaseController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Modules.php.html#4">Config\Modules</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Mimes.php.html#16">Config\Mimes</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Format.php.html#5">Config\Format</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecaptchaRules.php.html#7">App\Validation\RecaptchaRules</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Config/Mimes.php.html#16">Config\Mimes</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Config/Database.php.html#9">Config\Database</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Config/Format.php.html#5">Config\Format</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/Registeruser.php.html#11">App\Controllers\Registeruser</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThirdParty/DebounceService.php.html#9">App\ThirdParty\DebounceService</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Config/Modules.php.html#4">Config\Modules</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThirdParty/GoogleRecaptchaService.php.html#6">App\ThirdParty\GoogleRecaptchaService</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/RecaptchaRules.php.html#7">App\Validation\RecaptchaRules</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Config/Autoload.php.html#27"><abbr title="Config\Autoload::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/Migrations/2020-05-09-000737_create_users_table.php.html#7"><abbr title="App\Database\Migrations\CreateUsersTable::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/CheckFalsifiedEmail.php.html#10"><abbr title="App\Validation\CheckFalsifiedEmail::is_email_exist">is_email_exist</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdParty/GoogleRecaptchaService.php.html#8"><abbr title="App\ThirdParty\GoogleRecaptchaService::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThirdParty/DebounceService.php.html#13"><abbr title="App\ThirdParty\DebounceService::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/RegisterEmailNotification.php.html#9"><abbr title="App\Notification\RegisterEmailNotification::sendEmail">sendEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#14"><abbr title="App\Models\User::fetchUsers">fetchUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/Seeds/UserSeeder.php.html#9"><abbr title="App\Database\Seeds\UserSeeder::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/Seeds/TestSeeder.php.html#10"><abbr title="App\Database\Seeds\TestSeeder::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database/Migrations/2020-05-09-000737_create_users_table.php.html#32"><abbr title="App\Database\Migrations\CreateUsersTable::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#9"><abbr title="App\Controllers\UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Database.php.html#84"><abbr title="Config\Database::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Registeruser.php.html#19"><abbr title="App\Controllers\Registeruser::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Registeruser.php.html#14"><abbr title="App\Controllers\Registeruser::registrationForm">registrationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Home.php.html#5"><abbr title="App\Controllers\Home::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/BaseController.php.html#34"><abbr title="App\Controllers\BaseController::initController">initController</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Modules.php.html#56"><abbr title="Config\Modules::shouldDiscover">shouldDiscover</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Mimes.php.html#506"><abbr title="Config\Mimes::guessExtensionFromType">guessExtensionFromType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Mimes.php.html#484"><abbr title="Config\Mimes::guessTypeFromExtension">guessTypeFromExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Config/Format.php.html#52"><abbr title="Config\Format::getFormatter">getFormatter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecaptchaRules.php.html#9"><abbr title="App\Validation\RecaptchaRules::recaptcha">recaptcha</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Config/Mimes.php.html#506"><abbr title="Config\Mimes::guessExtensionFromType">guessExtensionFromType</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Config/Database.php.html#84"><abbr title="Config\Database::__construct">__construct</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Config/Format.php.html#52"><abbr title="Config\Format::getFormatter">getFormatter</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Config/Mimes.php.html#484"><abbr title="Config\Mimes::guessTypeFromExtension">guessTypeFromExtension</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThirdParty/DebounceService.php.html#13"><abbr title="App\ThirdParty\DebounceService::validate">validate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Config/Modules.php.html#56"><abbr title="Config\Modules::shouldDiscover">shouldDiscover</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/Registeruser.php.html#19"><abbr title="App\Controllers\Registeruser::register">register</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThirdParty/GoogleRecaptchaService.php.html#8"><abbr title="App\ThirdParty\GoogleRecaptchaService::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/RecaptchaRules.php.html#9"><abbr title="App\Validation\RecaptchaRules::recaptcha">recaptcha</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.10</a> using <a href="https://secure.php.net/" target="_top">PHP 7.4.5</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 8.5.4</a> at Sat May 9 12:54:40 CDT 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js" type="text/javascript"></script>
+  <script src="_js/d3.min.js" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([18,0,0,0,0,0,0,0,0,0,0,21], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([21,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"Config\/App.php.html#5\">Config\\App<\/a>"],[0,1,"<a href=\"Config\/Autoload.php.html#12\">Config\\Autoload<\/a>"],[100,0,"<a href=\"Config\/Cache.php.html#5\">Config\\Cache<\/a>"],[100,0,"<a href=\"Config\/ContentSecurityPolicy.php.html#17\">Config\\ContentSecurityPolicy<\/a>"],[0,6,"<a href=\"Config\/Database.php.html#9\">Config\\Database<\/a>"],[100,0,"<a href=\"Config\/DocTypes.php.html#9\">Config\\DocTypes<\/a>"],[100,0,"<a href=\"Config\/Email.php.html#6\">Config\\Email<\/a>"],[100,0,"<a href=\"Config\/Encryption.php.html#12\">Config\\Encryption<\/a>"],[100,0,"<a href=\"Config\/Exceptions.php.html#9\">Config\\Exceptions<\/a>"],[100,0,"<a href=\"Config\/Filters.php.html#5\">Config\\Filters<\/a>"],[100,0,"<a href=\"Config\/ForeignCharacters.php.html#3\">Config\\ForeignCharacters<\/a>"],[0,3,"<a href=\"Config\/Format.php.html#5\">Config\\Format<\/a>"],[100,0,"<a href=\"Config\/Honeypot.php.html#5\">Config\\Honeypot<\/a>"],[100,0,"<a href=\"Config\/Images.php.html#5\">Config\\Images<\/a>"],[100,0,"<a href=\"Config\/Kint.php.html#6\">Config\\Kint<\/a>"],[100,0,"<a href=\"Config\/Logger.php.html#5\">Config\\Logger<\/a>"],[100,0,"<a href=\"Config\/Migrations.php.html#5\">Config\\Migrations<\/a>"],[0,14,"<a href=\"Config\/Mimes.php.html#16\">Config\\Mimes<\/a>"],[0,2,"<a href=\"Config\/Modules.php.html#4\">Config\\Modules<\/a>"],[100,0,"<a href=\"Config\/Pager.php.html#5\">Config\\Pager<\/a>"],[100,0,"<a href=\"Config\/Paths.php.html#12\">Config\\Paths<\/a>"],[100,0,"<a href=\"Config\/Services.php.html#20\">Config\\Services<\/a>"],[100,0,"<a href=\"Config\/Toolbar.php.html#5\">Config\\Toolbar<\/a>"],[100,0,"<a href=\"Config\/UserAgents.php.html#5\">Config\\UserAgents<\/a>"],[100,0,"<a href=\"Config\/Validation.php.html#3\">Config\\Validation<\/a>"],[100,0,"<a href=\"Config\/View.php.html#3\">Config\\View<\/a>"],[0,1,"<a href=\"Controllers\/BaseController.php.html#19\">App\\Controllers\\BaseController<\/a>"],[0,1,"<a href=\"Controllers\/Home.php.html#3\">App\\Controllers\\Home<\/a>"],[0,3,"<a href=\"Controllers\/Registeruser.php.html#11\">App\\Controllers\\Registeruser<\/a>"],[0,1,"<a href=\"Controllers\/UserController.php.html#7\">App\\Controllers\\UserController<\/a>"],[0,2,"<a href=\"Database\/Migrations\/2020-05-09-000737_create_users_table.php.html#5\">App\\Database\\Migrations\\CreateUsersTable<\/a>"],[0,1,"<a href=\"Database\/Seeds\/TestSeeder.php.html#7\">App\\Database\\Seeds\\TestSeeder<\/a>"],[0,1,"<a href=\"Database\/Seeds\/UserSeeder.php.html#7\">App\\Database\\Seeds\\UserSeeder<\/a>"],[0,1,"<a href=\"Models\/User.php.html#7\">App\\Models\\User<\/a>"],[0,1,"<a href=\"Notification\/RegisterEmailNotification.php.html#7\">App\\Notification\\RegisterEmailNotification<\/a>"],[0,3,"<a href=\"ThirdParty\/DebounceService.php.html#9\">App\\ThirdParty\\DebounceService<\/a>"],[0,2,"<a href=\"ThirdParty\/GoogleRecaptchaService.php.html#6\">App\\ThirdParty\\GoogleRecaptchaService<\/a>"],[0,1,"<a href=\"Validation\/CheckFalsifiedEmail.php.html#8\">App\\Validation\\CheckFalsifiedEmail<\/a>"],[0,2,"<a href=\"Validation\/RecaptchaRules.php.html#7\">App\\Validation\\RecaptchaRules<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Config\/Autoload.php.html#27\">Config\\Autoload::__construct<\/a>"],[0,6,"<a href=\"Config\/Database.php.html#84\">Config\\Database::__construct<\/a>"],[0,3,"<a href=\"Config\/Format.php.html#52\">Config\\Format::getFormatter<\/a>"],[0,3,"<a href=\"Config\/Mimes.php.html#484\">Config\\Mimes::guessTypeFromExtension<\/a>"],[0,11,"<a href=\"Config\/Mimes.php.html#506\">Config\\Mimes::guessExtensionFromType<\/a>"],[0,2,"<a href=\"Config\/Modules.php.html#56\">Config\\Modules::shouldDiscover<\/a>"],[0,1,"<a href=\"Controllers\/BaseController.php.html#34\">App\\Controllers\\BaseController::initController<\/a>"],[0,1,"<a href=\"Controllers\/Home.php.html#5\">App\\Controllers\\Home::index<\/a>"],[0,1,"<a href=\"Controllers\/Registeruser.php.html#14\">App\\Controllers\\Registeruser::registrationForm<\/a>"],[0,2,"<a href=\"Controllers\/Registeruser.php.html#19\">App\\Controllers\\Registeruser::register<\/a>"],[0,1,"<a href=\"Controllers\/UserController.php.html#9\">App\\Controllers\\UserController::index<\/a>"],[0,1,"<a href=\"Database\/Migrations\/2020-05-09-000737_create_users_table.php.html#7\">App\\Database\\Migrations\\CreateUsersTable::up<\/a>"],[0,1,"<a href=\"Database\/Migrations\/2020-05-09-000737_create_users_table.php.html#32\">App\\Database\\Migrations\\CreateUsersTable::down<\/a>"],[0,1,"<a href=\"Database\/Seeds\/TestSeeder.php.html#10\">App\\Database\\Seeds\\TestSeeder::run<\/a>"],[0,1,"<a href=\"Database\/Seeds\/UserSeeder.php.html#9\">App\\Database\\Seeds\\UserSeeder::run<\/a>"],[0,1,"<a href=\"Models\/User.php.html#14\">App\\Models\\User::fetchUsers<\/a>"],[0,1,"<a href=\"Notification\/RegisterEmailNotification.php.html#9\">App\\Notification\\RegisterEmailNotification::sendEmail<\/a>"],[0,3,"<a href=\"ThirdParty\/DebounceService.php.html#13\">App\\ThirdParty\\DebounceService::validate<\/a>"],[0,2,"<a href=\"ThirdParty\/GoogleRecaptchaService.php.html#8\">App\\ThirdParty\\GoogleRecaptchaService::validate<\/a>"],[0,1,"<a href=\"Validation\/CheckFalsifiedEmail.php.html#10\">App\\Validation\\CheckFalsifiedEmail::is_email_exist<\/a>"],[0,2,"<a href=\"Validation\/RecaptchaRules.php.html#9\">App\\Validation\\RecaptchaRules::recaptcha<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
